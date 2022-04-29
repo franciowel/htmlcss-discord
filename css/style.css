@@ -36,10 +36,17 @@ nav,
 
 .odd{
     background-color: white;
+    height: 650px;
 }
 
 .even{
     background-color: lightgrey;
+    height: 550px;
+}
+
+.lateral p{
+    font-size: 20px;
+    line-height: 34px;
 }
 
 /* BUTTON */
@@ -138,10 +145,30 @@ h1{
 
 /* CORPO PAGINA */
 main section{
-    height: 550px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.image-page{
+    width: 65%;
+    height: 80%;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.lateral{
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 35%;
+    height: 80%;
+    padding: 15px 25px;
+}
+
+h2{
+    font-size: 50px;
 }
 
 .bloc-blue{
