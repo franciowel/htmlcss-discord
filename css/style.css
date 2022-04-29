@@ -51,6 +51,8 @@ nav,
 
 .btn-head{
     margin-top: 25px;
+    width: 65%;
+    justify-content: space-around;
 }
 
 .small{
@@ -58,8 +60,8 @@ nav,
 }
 
 .large{
-    padding: 12px 25px;
-    font-size: 20px;
+    padding: 14px 25px;
+    font-size: 21px;
 }
 
 #browser{
@@ -131,7 +133,7 @@ h1{
 
 .header-bottom p{
     line-height: 32px;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 /* CORPO PAGINA */
