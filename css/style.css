@@ -7,8 +7,8 @@
 
 /* COMMON */
 body{
-    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+    font-family: roboto;
+} 
 
 .container{
     width: 70%;
@@ -23,8 +23,9 @@ header{
     color: white;
 }
 
-.nav-bar a{
-    color: white;
+.nav-bar a,
+.end-menu a{
+    color: inherit;
     text-decoration: none;
 }
 
@@ -78,11 +79,15 @@ nav,
 }
 
 #cta-btn{
-    background-color: #255ee9;
+    background-color: #7289da;
     color: white;
     margin-bottom: 45px;
 }
 
+#register{
+    background-color: #7289da;
+    color: white;
+}
 
 /* HEADER TOP */
 .header-top{
@@ -219,29 +224,50 @@ footer{
 .footer-top{
     display: flex;
     justify-content: center;
-    padding: 20px 15px;
-    border-bottom: 2px solid gray;
-
-    /* TEST */
-    height: 600px;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 
-.col-pink{
-    height: 95%;
-    border: 2px dotted black;
+.col-social{
+    color: white;
 
-    /* TEST */
-    background-color: palevioletred ;
-    width: 19%;
+    width: 40%;
+}
+
+.social-logo{
+    font-size: 25px;
+    width: 60%;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.col-social h3{
+    color: #7289da;
+    font-size: 40px;
+    margin-bottom: 15px;
+      
+}
+
+.flag img{
+    width: 30px;
 }
 
 .col{
-    height: 95%;
-    border: 2px dotted white;
+    width: 25%
+}
 
-    /* TEST */
-    background-color: cornflowerblue;
-    width: 13%
+.col ul{
+    list-style: none;
+    font-size: 16px;
+    line-height: 35px;
+    color: white;
+
+}
+
+.col li:first-child{
+    color:#7289da;
+    font-weight: bold;
 }
 
 
@@ -249,35 +275,22 @@ footer{
 .footer-bottom{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    border-top: 1px solid #255ee9;
 
 
-    /* TEST */
-    height: 100px;
+
 }
 
 .end-banner{
-    display:flex;
     justify-content: space-between;
-    background-color: aquamarine;
-    font-size: 25px;
-    padding: 10px 0;
 
-    /* TEST */
-    width: 70%;
-    height: 60%;
+    width: 100%;
+    margin: 35px 0;
 
 }
 
-.end-logo{
-    text-align: left;
-    border: 2px dotted black;
-    background-color: pink;
+.end-banner img{
+    width: 140px;
 }
 
-.button{
-    text-align: right;
-    border: 2px dotted black;
-    background-color: pink;
-}
 
